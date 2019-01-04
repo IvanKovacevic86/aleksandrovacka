@@ -8,12 +8,13 @@ import Naslovna from './components/Naslovna/Index';
 class App extends Component {
   render() {
     return (
-      <div>
-        {/*
+      <div className="container nh">
+       
         <Header />
         <Nav />
-        */}
-        <Naslovna/>
+        
+
+        {/* <Naslovna/> */}
       </div>
     );
   }

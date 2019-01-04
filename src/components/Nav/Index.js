@@ -4,9 +4,9 @@ import './Index.css';
 class Nav extends React.Component {
   render() {
     return (
-      <div className="container links2">
-         <div className="row  ">
-            <div className="col-3 ">
+      <div className="links2">
+         <div style={{display:'flex', background: "#fff"}}>
+            <div>
               <div className="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                 <a className="nav-link active links" id="v-pills-naslovna-tab" data-toggle="pill" href="#v-pills-naslovna" role="tab" aria-controls="v-pills-naslovna" aria-selected="true">Naslovna</a>
                 
@@ -67,7 +67,7 @@ class Nav extends React.Component {
               </div>
             </div>
 
-            <div className="col-9">
+            <div style={{flex: 1}}>
               <div className="tab-content" id="v-pills-tabContent">
                 <div className="tab-pane fade show active" id="v-pills-naslovna" role="tabpanel" aria-labelledby="v-pills-naslovna-tab">fsdgfdsdsdf</div>
                 <div className="tab-pane fade" id="v-pills-lov" role="tabpanel" aria-labelledby="v-pills-lov-tab">neca hemija</div>

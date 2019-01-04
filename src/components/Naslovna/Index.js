@@ -10,9 +10,9 @@ class Naslovna extends React.Component {
       </div>
       
       <div className="container">
-      <div className="row">
-      <div className="nas ">
-        <div id="carouselExampleIndicators" className="carousel slide col-8" data-ride="carousel">
+      <div className="row" style={{height: 600}}>
+      <div className="col-8">
+        <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
           <ol className="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
