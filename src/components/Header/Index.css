@@ -1,0 +1,10 @@
+.dog {
+  background-image: url('../../assets/images/dog.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 16rem;
+  margin-top: 0.6rem;
+  max-width: 88%;
+    
+}
