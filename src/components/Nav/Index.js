@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.css';
 
+
 class Nav extends React.Component {
   render() {
     return (
@@ -8,6 +9,7 @@ class Nav extends React.Component {
          <div style={{ background: "#fff"}}>
             <div>
               <div className="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              
                 <a className="nav-link active links" id="v-pills-naslovna-tab" data-toggle="pill" href="#v-pills-naslovna" role="tab" aria-controls="v-pills-naslovna" aria-selected="true">Naslovna</a>
                 
                 <div className="btn-group dropright">

@@ -12,4 +12,6 @@ body {
 .nh2 {
   display: flex;
   background: #fff;
+  overflow: hidden;
+  
 }

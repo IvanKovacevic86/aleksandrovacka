@@ -6,7 +6,7 @@ class Lov  extends React.Component {
    return (
 
     <div>
-      
+      <p>Lov stranica.</p>
     </div>
                 );
   }
