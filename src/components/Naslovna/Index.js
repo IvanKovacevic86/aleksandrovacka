@@ -1,5 +1,5 @@
 import React from 'react';
-import './Index.css';
+import './index.css';
 
 class Naslovna extends React.Component {
   render() {
@@ -42,7 +42,7 @@ class Naslovna extends React.Component {
             <span className="sr-only">Next</span>
           </a>
         </div>
-      </div>
+      </div> 
 
       <div className="col-4">
         <p>Taxidermy kombucha poke raw denim vegan 90's etsy. Photo booth man braid craft beer literally single-origin coffee offal biodiesel ethical af try-hard raclette sriracha selfies. Franzen polaroid pitchfork photo booth YOLO. Kombucha you probably haven't heard of them yuccie cray copper mug vexillologist poutine bitters lo-fi flannel food truck cred coloring book VHS chillwave. Copper mug vinyl mixtape art party shabby chic beard.</p>

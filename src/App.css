@@ -8,3 +8,8 @@ body {
   max-width: 90%; 
 
 }
+
+.nh2 {
+  display: flex;
+  background: #fff;
+}

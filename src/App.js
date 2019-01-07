@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from './components/Header/Index';
-import Nav from './components/Nav/Index';
-import Footer from './components/Footer/Index';
-import Naslovna from './components/Naslovna/Index';
+import Header from './components/Header';
+import Nav from './components/Nav';
+import Naslovna from './components/Naslovna';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -11,10 +11,12 @@ class App extends Component {
       <div className="container nh">
        
         <Header />
-        <Nav />
-        
+        <div className="nh2">
+          <Nav />
+          <Naslovna/>
+        </div>
+        <Footer/>
 
-        {/* <Naslovna/> */}
       </div>
     );
   }

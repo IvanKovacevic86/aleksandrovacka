@@ -1,12 +1,12 @@
 import React from 'react';
-import './Index.css';
+import './index.css';
 
 class Footer extends React.Component {
   render() {
     return (
       <div>
         <div className="footer">
-        <p>Ivan Kovacevic &copy; 2018</p>
+        <p>Ivan Kovacevic &copy; 2019</p>
       </div>
       </div>
                 );

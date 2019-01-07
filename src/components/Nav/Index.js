@@ -1,11 +1,11 @@
 import React from 'react';
-import './Index.css';
+import './index.css';
 
 class Nav extends React.Component {
   render() {
     return (
       <div className="links2">
-         <div style={{display:'flex', background: "#fff"}}>
+         <div style={{ background: "#fff"}}>
             <div>
               <div className="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                 <a className="nav-link active links" id="v-pills-naslovna-tab" data-toggle="pill" href="#v-pills-naslovna" role="tab" aria-controls="v-pills-naslovna" aria-selected="true">Naslovna</a>
@@ -67,15 +67,7 @@ class Nav extends React.Component {
               </div>
             </div>
 
-            <div style={{flex: 1}}>
-              <div className="tab-content" id="v-pills-tabContent">
-                <div className="tab-pane fade show active" id="v-pills-naslovna" role="tabpanel" aria-labelledby="v-pills-naslovna-tab">fsdgfdsdsdf</div>
-                <div className="tab-pane fade" id="v-pills-lov" role="tabpanel" aria-labelledby="v-pills-lov-tab">neca hemija</div>
-                <div className="tab-pane fade" id="v-pills-novosti" role="tabpanel" aria-labelledby="v-pills-novosti-tab">kole</div>
-                <div className="tab-pane fade" id="v-pills-linkovi" role="tabpanel" aria-labelledby="v-pills-linkovi-tab">pfc</div>
-                <div className="tab-pane fade" id="v-pills-kontakt" role="tabpanel" aria-labelledby="v-pills-kontakt-tab">ssss</div>
-              </div>
-            </div>
+          
         </div>
       </div>
                 );
