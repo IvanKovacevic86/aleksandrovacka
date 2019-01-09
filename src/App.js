@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './components/Header';
 import Nav from './components/Nav';
-import Naslovna from './components/Naslovna';
+import Naslovna from './pages/Naslovna';
 import Footer from './components/Footer';
 
 class App extends Component {
