@@ -1,18 +1,18 @@
 import React from 'react';
-import './Index.css';
+import './index.css';
 
-class Naslovna extends React.Component {
+class Novosti extends React.Component {
   render() {
    return (
      <div className="container">
-      <div>
-        <p>Lorem ipsum dolor amet green juice sriracha microdosing prism pour-over tattooed flannel. Small batch poutine everyday carry, direct trade tattooed tumeric man bun fashion axe jianbing chambray pinterest selvage cardigan migas put a bird on it. Sriracha crucifix activated charcoal, shaman vexillologist pug freegan deep v waistcoat venmo irony forage. Mustache mixtape enamel pin retro literally leggings. Put a bird on it hell of humblebrag, synth hella shaman narwhal portland.</p>
-      </div>
-      
       <div className="container">
-      <div className="row">
-      <div>
-        <div id="carouselExampleIndicators" className="carousel slide col-8" data-ride="carousel">
+        <p>LoreM ipsum dolor amet green juice sriracha microdosing prism pour-over tattooed flannel. Small batch poutine everyday carry, direct trade tattooed tumeric man bun fashion axe jianbing chambray pinterest selvage cardigan migas put a bird on it. Sriracha crucifix activated charcoal, shaman vexillologist pug freegan deep v waistcoat venmo irony forage. Mustache mixtape enamel pin retro literally leggings. Put a bird on it hell of humblebrag, synth hella shaman narwhal portland.</p>
+      </div>
+
+      <div className="container nas">
+      <div className="row" style={{height: 600}}>
+      <div className="col-8">
+        <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
           <ol className="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -42,7 +42,7 @@ class Naslovna extends React.Component {
             <span className="sr-only">Next</span>
           </a>
         </div>
-      </div>
+      </div> 
 
       <div className="col-4">
         <p>Taxidermy kombucha poke raw denim vegan 90's etsy. Photo booth man braid craft beer literally single-origin coffee offal biodiesel ethical af try-hard raclette sriracha selfies. Franzen polaroid pitchfork photo booth YOLO. Kombucha you probably haven't heard of them yuccie cray copper mug vexillologist poutine bitters lo-fi flannel food truck cred coloring book VHS chillwave. Copper mug vinyl mixtape art party shabby chic beard.</p>
@@ -50,10 +50,13 @@ class Naslovna extends React.Component {
       </div>
       </div>
 
+      
+      
+
      </div>
                 );
   }
 };
 
 
-export default Naslovna;
+export default Novosti;

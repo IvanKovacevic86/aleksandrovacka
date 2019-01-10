@@ -1,5 +1,7 @@
 import React from 'react';
 import './index.css';
+import Lov from '../../pages/Lov';
+import { Link } from "@reach/router";
 
 
 class Nav extends React.Component {
@@ -10,7 +12,7 @@ class Nav extends React.Component {
             <div>
               <div className="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
               
-                <a className="nav-link active links" id="v-pills-naslovna-tab" data-toggle="pill" href="#v-pills-naslovna" role="tab" aria-controls="v-pills-naslovna" aria-selected="true">Naslovna</a>
+                <Link to="Naslovna" className="nav-link active links">Naslovna</Link>
                 
                 <div className="btn-group dropright">
                   <button type="button" className="btn links butt dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -49,8 +51,8 @@ class Nav extends React.Component {
                   </div>
                 </div>
 
-                <a className="nav-link links" id="v-pills-lov-tab" data-toggle="pill" href="#v-pills-lov" role="tab" aria-controls="v-pills-lov" aria-selected="false">Lov</a>
-                <a className="nav-link links" id="v-pills-novosti-tab" data-toggle="pill" href="#v-pills-novosti" role="tab" aria-controls="v-pills-novosti" aria-selected="false">Novosti</a>
+                <Link to="Lov" className="nav-link links">Lov</Link>
+                <Link to="Novosti" className="nav-link links">Novosti</Link>
 
                 <div className="btn-group dropright">
                   <button type="button" className="btn links butt dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -66,6 +68,7 @@ class Nav extends React.Component {
 
                 <a className="nav-link links" id="v-pills-linkovi-tab" data-toggle="pill" href="#v-pills-linkovi" role="tab" aria-controls="v-pills-linkovi" aria-selected="false">Linkovi</a>
                 <a className="nav-link links" id="v-pills-kontakt-tab" data-toggle="pill" href="#v-pills-kontakt" role="tab" aria-controls="v-pills-kontakt" aria-selected="false">Kontakt</a>
+                
               </div>
             </div>
 
