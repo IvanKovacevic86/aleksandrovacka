@@ -1,7 +1,10 @@
 import React from 'react';
 import './index.css';
-import Lov from '../../pages/Lov';
 import { Link } from "@reach/router";
+import Lov from '../../pages/Lov';
+import Linkovi from '../../pages/Linkovi';
+import Kontakt from '../../pages/Kontakt';
+
 
 
 class Nav extends React.Component {
@@ -66,8 +69,8 @@ class Nav extends React.Component {
                   </div>
                 </div>
 
-                <a className="nav-link links" id="v-pills-linkovi-tab" data-toggle="pill" href="#v-pills-linkovi" role="tab" aria-controls="v-pills-linkovi" aria-selected="false">Linkovi</a>
-                <a className="nav-link links" id="v-pills-kontakt-tab" data-toggle="pill" href="#v-pills-kontakt" role="tab" aria-controls="v-pills-kontakt" aria-selected="false">Kontakt</a>
+                <Link to="Linkovi" className="nav-link links">Linkovi</Link>
+                <Link to="Kontakt" className="nav-link links">Kontakt</Link>
                 
               </div>
             </div>

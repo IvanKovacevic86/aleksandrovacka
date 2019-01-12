@@ -7,6 +7,8 @@ import Footer from './components/Footer';
 import Naslovna from './pages/Naslovna';
 import Lov from './pages/Lov';
 import Novosti from './pages/Novosti';
+import Linkovi from './pages/Linkovi';
+import Kontakt from './pages/Kontakt';
 
 
 
@@ -23,6 +25,8 @@ class App extends Component {
             <Naslovna path="Naslovna" />
             <Lov path="Lov" />
             <Novosti path="Novosti" />
+            <Linkovi path="Linkovi" />
+            <Kontakt path="Kontakt" />
           </Router>
 
         </div>
