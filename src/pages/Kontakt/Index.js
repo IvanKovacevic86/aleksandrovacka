@@ -11,7 +11,7 @@ class Kontakti extends React.Component {
         <i class="fas fa-user-secret">{" "}Dragisa Zivadinovic Hrvat</i><br/>
         <i className="fas fa-home">{" "}Veljka Vlahovica</i><br/>
         <i class="fas fa-mobile-alt">{" "}0645572327</i><br/>
-        <i class="fas fa-envelope-square"><a href="https://mail.yahoo.com/d/folders/1?reason=norrinuser">{" "}kocha_po@yahoo.com</a></i>
+        <i class="fas fa-envelope-square"><a href="https://mail.yahoo.com/d/folders/1?reason=norrinuser" target="_blank">{" "}kocha_po@yahoo.com</a></i>
       </div>
 
       <div className="container con">
@@ -52,7 +52,7 @@ class Kontakti extends React.Component {
       </div>
 
       <div className="con">
-      <a href="https://www.facebook.com/dragisadacha.zivadinovic"><i className="fab fa-facebook fa-2x"></i></a>
+      <a href="https://www.facebook.com/dragisadacha.zivadinovic" target="_blank"><i className="fab fa-facebook fa-2x"></i></a>
       <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
       <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
       </div>
