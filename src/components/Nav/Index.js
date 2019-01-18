@@ -8,6 +8,10 @@ import Breton from '../../pages/Breton';
 import Nlt from '../../pages/Nlt';
 import Nop from '../../pages/Nop';
 import Poenter from '../../pages/Poenter';
+import Breton1 from '../../pages/Breton1';
+import Nlt1 from '../../pages/Nlt1';
+import Nop1 from '../../pages/Nop1';
+import Poenter1 from '../../pages/Poenter1';
 
 
 
@@ -40,10 +44,10 @@ class Nav extends React.Component {
                     Odgajivacnica
                   </button>
                   <div className="dropdown-menu">
-                  <Link to="Poenter">Poenter</Link> <br />
-                    <Link to="Breton">Epanjel Breton</Link> <br/>
-                    <Link to="Nop">Nemacki ostrodlaki pas <br/> Deutsch Drahthaar</Link> <br/>
-                    <Link to="Nlt">Nemacki lovni terijer <br/> Deutsher jagdterrier</Link>
+                    <Link to="Poenter1">Poenter</Link> <br />
+                    <Link to="Breton1">Epanjel Breton</Link> <br/>
+                    <Link to="Nop1">Nemacki ostrodlaki pas <br/> Deutsch Drahthaar</Link> <br/>
+                    <Link to="Nlt1">Nemacki lovni terijer <br/> Deutsher jagdterrier</Link>
                   </div>
                 </div>
 

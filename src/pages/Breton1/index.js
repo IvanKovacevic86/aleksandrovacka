@@ -8,7 +8,7 @@ class Breton extends React.Component {
     <div className="container nh3">
       
       <div className="container nas">
-        <div className="row br" >
+        <div className="row br">
           <div className="col-8">
         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
           <ol className="carousel-indicators">
@@ -45,7 +45,7 @@ class Breton extends React.Component {
        </div>
 
   <div className="container">
-    <p>Lorem ipsum dolor amet copper mug organic adaptogen forage, beard selfies squid. Godard retro vinyl banjo coloring book.</p>  
+    <p>Loremmm ipsum dolor amet copper mug organic adaptogen forage, beard selfies squid. Godard retro vinyl banjo coloring book.</p>  
   </div> 
 
   <div className="container nas">

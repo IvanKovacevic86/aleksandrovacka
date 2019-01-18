@@ -4,7 +4,7 @@ import './index.css';
 class Naslovna extends React.Component {
   render() {
    return (
-     <div className="container">
+     <div className="container nh3">
       <div className="container">
         <p>LoreM ipsum dolor amet green juice sriracha microdosing prism pour-over tattooed flannel. Small batch poutine everyday carry, direct trade tattooed tumeric man bun fashion axe jianbing chambray pinterest selvage cardigan migas put a bird on it. Sriracha crucifix activated charcoal, shaman vexillologist pug freegan deep v waistcoat venmo irony forage. Mustache mixtape enamel pin retro literally leggings. Put a bird on it hell of humblebrag, synth hella shaman narwhal portland.</p>
       </div>
