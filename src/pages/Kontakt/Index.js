@@ -16,9 +16,13 @@ class Kontakti extends React.Component {
         <i className="fas fa-envelope-square"><a href="https://mail.yahoo.com/d/folders/1?reason=norrinuser" target="_blank">{" "}kocha_po@yahoo.com</a></i>
       </div>
 
-    
+      <div style={{width: 600, height: 400, position: 'relative'}}>
 
-      <div className="container con">
+      <Mapcontainer />
+      </div>
+
+
+      <div className=" con">
       <div className="row">
       <div className="col">
         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
@@ -50,9 +54,12 @@ class Kontakti extends React.Component {
             <span className="carousel-control-next-icon" aria-hidden="true"></span>
             <span className="sr-only">Next</span>
           </a>
+          </div>
         </div>
-      </div> 
-      </div>
+        </div>
+        
+     
+      
       </div>
 
       <div className="con">
