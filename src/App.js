@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Router } from "@reach/router";
-import { Map, InfoWindow, Marker, GoogleApiWrapper } from 'google-maps-react';
 import Header from './components/Header';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
@@ -10,14 +9,19 @@ import Lov from './pages/Lov';
 import Novosti from './pages/Novosti';
 import Linkovi from './pages/Linkovi';
 import Kontakt from './pages/Kontakt';
-import Breton from './pages/Breton';
-import Nlt from './pages/Nlt';
+import Bretonm from './pages/Bretonm';
+import Nltm from './pages/Nltm';
+import Nopz from './pages/Nopz';
+import Poenterm from './pages/Poenterm';
+import Bretonz from './pages/Bretonz';
+import Nltz from './pages/Nltz';
+import Nopm from './pages/Nopm';
+import Poenterz from './pages/Poenterz';
 import Nop from './pages/Nop';
+import Nlt from './pages/Nlt';
+import Breton from './pages/Breton';
 import Poenter from './pages/Poenter';
-import Breton1 from './pages/Breton1';
-import Nlt1 from './pages/Nlt1';
-import Nop1 from './pages/Nop1';
-import Poenter1 from './pages/Poenter1';
+
 
 
 
@@ -38,14 +42,18 @@ class App extends Component {
             <Novosti path="Novosti" />
             <Linkovi path="Linkovi" />
             <Kontakt path="Kontakt" />
-            <Breton path="Breton" />
-            <Breton1 path="Breton1" />
-            <Nlt path="Nlt" />
-            <Nlt1 path="Nlt1" />
-            <Nop path="Nop" />
-            <Nop1 path="Nop1" />
+            <Bretonm path="Bretonm" />
+            <Bretonz path="Bretonz" />
+            <Nltm path="Nltm" />
+            <Nltz path="Nltz" />
+            <Nopm path="Nopm" />
+            <Nopz path="Nopz" />
+            <Poenterm path="Poenterm" />
+            <Poenterz path="Poenterz" />
             <Poenter path="Poenter" />
-            <Poenter1 path="Poenter1" />
+            <Breton path="Breton" />
+            <Nop path="Nop" />
+            <Nlt path="Nlt" />
 
           </Router>
 

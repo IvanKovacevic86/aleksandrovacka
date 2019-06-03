@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 
-class Nlt extends React.Component {
+class Nltm extends React.Component {
   render() {
    return (
      
@@ -96,5 +96,5 @@ class Nlt extends React.Component {
   }
 };
 
-export default Nlt;
+export default Nltm;
 

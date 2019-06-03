@@ -1,10 +1,10 @@
 import React from 'react';
 import './index.css';
 
-class Nop extends React.Component {
+class Poenterm extends React.Component {
   render() {
    return (
-      
+   
     <div className="container nh3">
       
     <div className="container nas">
@@ -90,10 +90,10 @@ class Nop extends React.Component {
 </div> 
 
 </div>
-
+    
                 );
   }
 };
 
-export default Nop;
+export default Poenterm;
 

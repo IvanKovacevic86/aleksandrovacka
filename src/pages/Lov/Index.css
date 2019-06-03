@@ -2,6 +2,7 @@
 /* Position the image container (needed to position the left and right arrows) */
 .container1 {
   position: relative;
+  width: 100%;
 }
 
 /* Hide the images by default */
@@ -85,4 +86,18 @@
 
 .angle {
   color: #fff;
+}
+
+.cccc {
+  padding-bottom: 2rem;
+}
+
+.xyx {
+  padding-top: 2rem;
+}
+
+.xxxx {
+  background: black;
+  height: 2px;
+  width: 100%;
 }

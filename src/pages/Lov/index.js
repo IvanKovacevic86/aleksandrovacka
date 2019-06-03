@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 
-class Lov  extends React.Component {
+class Lov extends React.Component {
   state = {
     slideIndex: 1
   }
@@ -50,7 +50,10 @@ currentSlide = (n) => () => {
   render() {
 
    return (
-    <div className="container nh3">
+    <div className="container nh3 cccc">
+      
+      <div className="row" >
+      <div className="col-8">
 <div className="container1">
 
 <div className="mySlides">
@@ -117,6 +120,18 @@ currentSlide = (n) => () => {
 </div>
 </div>
 
+<div className="col-4">
+    <p>Loremx ipsum dolor amet copper mug organic adaptogen forage, beard selfies squid. Godard retro vinyl banjo coloring book.Loremx ipsum dolor amet copper mug organic adaptogen forage, beard selfies squid. Godard retro vinyl banjo coloring book.</p>  
+  </div>
+
+   <div className="container xyx">
+   <h1>Lorem ipsum</h1>
+   </div>
+
+   <div className="xxxx"></div>
+
+  </div>
+  </div>
                 );
   }
 };
