@@ -1,6 +1,6 @@
 .links {
   border: 1px solid black;
-  background-color: #003300;
+  background-color: #422203;
   margin-bottom: 0.2rem;
   color: #ffbd7a;
   text-align: center;
@@ -13,12 +13,13 @@
 
 a:hover {
   color: #ffad5c;
+  text-decoration: none;
 }
 
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
 
-  background-color: #003300;
+  background-color: #422203;
 }
 
 .butt {
@@ -29,3 +30,6 @@ a:hover {
   background: transparent;
   border: none;
 }
+
+
+

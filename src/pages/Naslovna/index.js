@@ -9,8 +9,8 @@ class Naslovna extends React.Component {
         <p>LoreM ipsum dolor amet green juice sriracha microdosing prism pour-over tattooed flannel. Small batch poutine everyday carry, direct trade tattooed tumeric man bun fashion axe jianbing chambray pinterest selvage cardigan migas put a bird on it. Sriracha crucifix activated charcoal, shaman vexillologist pug freegan deep v waistcoat venmo irony forage. Mustache mixtape enamel pin retro literally leggings. Put a bird on it hell of humblebrag, synth hella shaman narwhal portland.</p>
       </div>
 
-      <div className="container nas">
-      <div className="row" style={{height: 600}}>
+      <div className="container mb">
+      <div className="row">
       <div className="col-8">
         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
           <ol className="carousel-indicators">
@@ -51,12 +51,12 @@ class Naslovna extends React.Component {
      </div>
 
 
- <div className="container">
+ <div className="container ">
         <p>LoreM ipsum dolor amet green juice sriracha microdosing prism pour-over tattooed flannel. Small batch poutine everyday carry, direct trade tattooed tumeric man bun fashion axe jianbing chambray pinterest selvage cardigan migas put a bird on it. Sriracha crucifix activated charcoal, shaman vexillologist pug freegan deep v waistcoat venmo irony forage. Mustache mixtape enamel pin retro literally leggings. Put a bird on it hell of humblebrag, synth hella shaman narwhal portland.</p>
       </div>
 
-      <div className="container nas">
-      <div className="row" style={{height: 600}}>
+      <div className="container mb">
+      <div className="row">
       <div className="col-8">
         <div id="carouselExampleIndicat" className="carousel slide" data-ride="carousel">
           <ol className="carousel-indicators">
@@ -89,16 +89,9 @@ class Naslovna extends React.Component {
           </a>
         </div>
       </div> 
-
-     
-      </div>
+    </div>
       
-
-      
-      </div>
-
-      
-      
+    </div>
 
      </div>
                 );

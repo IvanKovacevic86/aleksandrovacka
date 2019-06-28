@@ -7,6 +7,9 @@ class Linkovi extends React.Component {
 
     <div className="container nh3">
 
+      <a href="https://www.blic.rs/" target="_blank">Fdfsdf sdfsdfdf dfdf</a> <br/>
+      <a href="https://www.kurir.rs/" target="_blank">Kdfsdf sdfsdfdf dfdf</a> <br/>
+      <a href="https://www.telegraf.rs/" target="_blank">Jdfsdf sdfsdfdf dfdf</a>
 
     </div>
                 );

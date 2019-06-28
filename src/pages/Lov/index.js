@@ -128,9 +128,10 @@ currentSlide = (n) => () => {
    <h1>Lorem ipsum</h1>
    </div>
 
-   <div className="xxxx"></div>
 
   </div>
+
+  <div className="xxxx"></div>
   </div>
                 );
   }

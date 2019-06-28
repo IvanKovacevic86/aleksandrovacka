@@ -9,18 +9,19 @@ import Lov from './pages/Lov';
 import Novosti from './pages/Novosti';
 import Linkovi from './pages/Linkovi';
 import Kontakt from './pages/Kontakt';
-import Bretonm from './pages/Bretonm';
-import Nltm from './pages/Nltm';
-import Nopz from './pages/Nopz';
-import Poenterm from './pages/Poenterm';
-import Bretonz from './pages/Bretonz';
-import Nltz from './pages/Nltz';
-import Nopm from './pages/Nopm';
-import Poenterz from './pages/Poenterz';
+import Breton1 from './pages/Breton1';
+import Nlt1 from './pages/Nlt1';
+import Nop2 from './pages/Nop2';
+import Poenter1 from './pages/Poenter1';
+import Breton2 from './pages/Breton2';
+import Nlt2 from './pages/Nlt2';
+import Nop1 from './pages/Nop1';
+import Poenter2 from './pages/Poenter2';
 import Nop from './pages/Nop';
 import Nlt from './pages/Nlt';
 import Breton from './pages/Breton';
 import Poenter from './pages/Poenter';
+import Odgajivacnica  from './pages/Odgajivacnica';
 
 
 
@@ -35,21 +36,22 @@ class App extends Component {
         <div className="nh2">
         <Nav />
           
-          <Router>
+          <Router style={{width: "100%"}}>
 
             <Naslovna path="/" />
+            <Odgajivacnica path="Odgajivacnica" />
             <Lov path="Lov" />
             <Novosti path="Novosti" />
             <Linkovi path="Linkovi" />
             <Kontakt path="Kontakt" />
-            <Bretonm path="Bretonm" />
-            <Bretonz path="Bretonz" />
-            <Nltm path="Nltm" />
-            <Nltz path="Nltz" />
-            <Nopm path="Nopm" />
-            <Nopz path="Nopz" />
-            <Poenterm path="Poenterm" />
-            <Poenterz path="Poenterz" />
+            <Breton1 path="Breton1" />
+            <Breton2 path="Breton2" />
+            <Nlt1 path="Nlt1" />
+            <Nlt2 path="Nlt2" />
+            <Nop1 path="Nop1" />
+            <Nop2 path="Nop2" />
+            <Poenter1 path="Poenter1" />
+            <Poenter2 path="Poenter2" />
             <Poenter path="Poenter" />
             <Breton path="Breton" />
             <Nop path="Nop" />

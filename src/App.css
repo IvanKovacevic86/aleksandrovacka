@@ -1,26 +1,51 @@
 body {
-  background-color: #264c1a;
-  font-family: sans-serif, Helvetica, ;
+  background-color: #211100;
+  font-family: 'Charm', cursive;
+  height: 100%;
 
 }
 
+#root {
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
 .nh {
-  max-width: 90%; 
+  max-width: 90%;
+  height: 100%; 
 
 }
 
 .nh2 {
   display: flex;
-  background: #fff;
+  background: #e5d1be;
   overflow: hidden;
-  
+  min-height: calc(100% - 304px);
 }
 
 
 .nh3 {
-  padding-top: 3rem;
+  padding-top: 3em;
+  
 }
 
 .mb {
-  margin-bottom: 2rem;
+  margin-bottom: 2em;
+}
+
+.dropdown-menu {
+
+  background-color: #422203;
+
+}
+
+.drhr {
+  color: #ffbd7a;
+}
+
+.hgt {
+  height: 600px;
 }
