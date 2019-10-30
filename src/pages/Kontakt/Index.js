@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.css';
-
+import img1 from "../../assets/images/1.jpg";
+import img2 from "../../assets/images/2.jpg";
 
 
 class Kontakti extends React.Component {
@@ -10,10 +11,10 @@ class Kontakti extends React.Component {
     <div className="container nh3">
 
       <div className="con">
-        <i className="fas fa-user-secret">{" "}Dragisa Zivadinovic Hrvat</i><br/>
-        <i className="fas fa-home">{" "}Veljka Vlahovica</i><br/>
-        <i className="fas fa-mobile-alt">{" "}0645572327</i><br/>
-        <i className="fas fa-envelope-square"><a href="https://mail.yahoo.com/d/folders/1?reason=norrinuser" target="_blank">{" "}kocha_po@yahoo.com</a></i>
+        <i className="fas fa-user-secret">{" "}Dragiša Dača Živadinović</i><br/>
+        <i className="fas fa-home">{" "}Kralja Aleksandra Obrenovića 137, 12370 Aleksandrovac(požarevački)</i><br/>
+        <i className="fas fa-mobile-alt">{" "}+381 665046106</i><br/>
+        <i className="fas fa-envelope-square">{" "}zivadinovicdragisa@gmail.com</i>
       </div>
 
         <div className="terry mb aaaa">
@@ -26,17 +27,13 @@ class Kontakti extends React.Component {
          
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="https://source.unsplash.com/random/202x200" className="d-block w-100" alt="..."/>
-          <div className="carousel-caption d-none d-md-block">
-            <h5>PFC</h5>
-            <p>Kole zmaj</p>
-          </div>
+            <img src={img1} className="d-block w-100 imggg" alt="..." />
         </div>
         <div className="carousel-item">
-          <img src="https://source.unsplash.com/random/200x200" className="d-block w-100" alt="..."/>
+          <img src={img2} className="d-block w-100 imggg" alt="..."/>
         </div>
         <div className="carousel-item">
-          <img src="https://source.unsplash.com/random/201x200" className="d-block w-100" alt="..."/>
+          <img src="https://source.unsplash.com/random/201x200" className="d-block w-100 imgg" alt="..." />
         </div>
         </div>
         
@@ -53,9 +50,9 @@ class Kontakti extends React.Component {
       
 
       <div className="con">
-      <a href="https://www.facebook.com/dragisadacha.zivadinovic" target="_blank"><i className="fab fa-facebook fa-2x"></i></a>
-      <a href="#"><i className="fab fa-youtube fa-2x"></i></a>
-      <a href="#"><i className="fab fa-instagram fa-2x"></i></a>
+      <a href="https://www.facebook.com/dragisadacha.zivadinovic" target="_blank"><i className="fab fa-facebook fa-2x"></i></a>{" "}
+      <a href="https://www.youtube.com/channel/UCzjcccdCf56wcfiQ4sZSCIg?view_as=subscriber&fbclid=IwAR1Y7hm3PuWv2nRaoA4CuETH7EnOT_XaoDubWsZOw3_tP6YJ1yFbSKo_h6E" target="_blank"><i className="fab fa-youtube fa-2x"></i></a>{" "}
+      <a href="https://www.instagram.com/monsieur_dacha/?hl=sr&fbclid=IwAR2FvHzp2wVxrh6tj6vkCCkJX-9DeadTK5mAdOI5jXsvPgs-mncokMFciMA" target="_blank"><i className="fab fa-instagram fa-2x"></i></a>
       </div>
 
     </div>

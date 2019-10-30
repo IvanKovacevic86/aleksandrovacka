@@ -18,19 +18,19 @@ class Naslovna extends React.Component {
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           </ol>
-        <div className="carousel-inner">
+        <div className="carousel-inner ">
           <div className="carousel-item active">
-            <img src="https://source.unsplash.com/random/202x200" className="d-block w-100" alt="..."/>
+            <img src="https://source.unsplash.com/random/207x200" className="d-block w-100" alt="..."/>
           <div className="carousel-caption d-none d-md-block">
             <h5>PFC</h5>
             <p>Kole zmaj</p>
           </div>
         </div>
         <div className="carousel-item">
-          <img src="https://source.unsplash.com/random/200x200" className="d-block w-100" alt="..."/>
+          <img src="https://source.unsplash.com/random/208x200" className="d-block w-100" alt="..."/>
         </div>
         <div className="carousel-item">
-          <img src="https://source.unsplash.com/random/201x200" className="d-block w-100" alt="..."/>
+          <img src="https://source.unsplash.com/random/209x200" className="d-block w-100" alt="..."/>
         </div>
         </div>
           <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -44,8 +44,8 @@ class Naslovna extends React.Component {
         </div>
       </div> 
 
-      <div className="col-4">
-        <p>Taxidermy kombucha poke raw denim vegan 90's etsy. Photo booth man braid craft beer literally single-origin coffee offal biodiesel ethical af try-hard raclette sriracha selfies. Franzen polaroid pitchfork photo booth YOLO. Kombucha you probably haven't heard of them yuccie cray copper mug vexillologist poutine bitters lo-fi flannel food truck cred coloring book VHS chillwave. Copper mug vinyl mixtape art party shabby chic beard.</p>
+      <div className="col-4 med">
+        <p className="med2" >Taxidermy kombucha poke raw denim vegan 90's etsy. Photo booth man braid craft beer literally single-origin coffee offal biodiesel ethical af try-hard raclette sriracha selfies. Franzen polaroid pitchfork photo booth YOLO. Kombucha you probably haven't heard of them yuccie cray copper mug vexillologist poutine bitters lo-fi flannel food truck cred coloring book VHS chillwave. Copper mug vinyl mixtape art party shabby chic beard.</p>
       </div>
       </div>
      </div>

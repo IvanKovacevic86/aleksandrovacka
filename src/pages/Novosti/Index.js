@@ -10,7 +10,7 @@ class Novosti extends React.Component {
       </div>
 
       <div className="container mb">
-      <div className="row" style={{height: 600}}>
+      <div className="row">
       <div className="col-8">
         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
           <ol className="carousel-indicators">
@@ -44,13 +44,18 @@ class Novosti extends React.Component {
         </div>
       </div> 
 
-      <div className="col-4">
+      <div className="col-4 med">
         <p>Taxidermy kombucha poke raw denim vegan 90's etsy. Photo booth man braid craft beer literally single-origin coffee offal biodiesel ethical af try-hard raclette sriracha selfies. Franzen polaroid pitchfork photo booth YOLO. Kombucha you probably haven't heard of them yuccie cray copper mug vexillologist poutine bitters lo-fi flannel food truck cred coloring book VHS chillwave. Copper mug vinyl mixtape art party shabby chic beard.</p>
       </div>
+
+      
       </div>
+      
       </div>
 
-        <div className=" xxxx mb"></div>
+
+
+      <div className="xxxx mb"></div>
 
      </div>
                 );

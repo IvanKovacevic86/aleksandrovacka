@@ -4,15 +4,26 @@ import { Link }  from "@reach/router";
 
 
 
+
+
 class Nav extends React.Component {
   
   render() {
     return (
       <div className="links2">
-         <div style={{ background: "#fff"}}>
-            <div>
-              <div className="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-              
+      
+         
+      <nav role="navigation" >
+         <div id="menuTogglemenu" >
+
+         <input type="checkbox" />
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <ul id="menumenu" >
+            <div className="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                 <Link to="/" className="nav-link links" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Naslovna</Link>
                 
                 <div className="btn-group dropright">
@@ -65,12 +76,13 @@ class Nav extends React.Component {
 
                 <Link to="Linkovi" className="nav-link links">Linkovi</Link>
                 <Link to="Kontakt" className="nav-link links">Kontakt</Link>
+               
                 
               </div>
-            </div>
-
-          
+              </ul>
         </div>
+
+        </nav>
       </div>
                 );
   }

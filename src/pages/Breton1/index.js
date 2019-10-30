@@ -123,7 +123,7 @@ currentSlide = (n) => () => {
             </div>
             </div>
 
-      <div className="col-4">
+      <div className="col-4 med">
         <p>Loremx ipsum dolor amet copper mug organic adaptogen forage, beard selfies squid. Godard retro vinyl banjo coloring book.Loremx ipsum dolor amet copper mug organic adaptogen forage, beard selfies squid. Godard retro vinyl banjo coloring book.</p>  
       </div>
    </div>
