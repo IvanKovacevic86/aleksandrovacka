@@ -36,7 +36,7 @@ class App extends Component {
         <div className="nh2">
         <Nav />
           
-          <Router style={{width: "100%"}}>
+          <Router style={{width: "100%"}} >
 
             <Naslovna path="/" />
             <Odgajivacnica path="Odgajivacnica" />
